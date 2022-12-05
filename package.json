@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gen": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daweb-Schools/tailwind-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daweb-Schools/tailwind-tutorial/issues"
+  },
+  "homepage": "https://github.com/Daweb-Schools/tailwind-tutorial#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
